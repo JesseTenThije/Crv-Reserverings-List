@@ -45,6 +45,6 @@ namespace CCSB.Models
         [DisplayName("Gebruiker")]
         public ApplicationUser ApplicationUser { get; set; }
 
-        public List<Reserveringen> Reserveringen { get; set; }
+        public virtual List<Reserveringen> Reserveringen { get; set; }
     }
 }
